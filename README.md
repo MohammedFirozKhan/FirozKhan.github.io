@@ -1,2 +1,2 @@
-# FirozKhan.github.io
+# MohammedFirozKhan.github.io
 Test Repo
