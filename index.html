@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
    <head>
-      <script src = "https://d3js.org/d3.v5.min.js"></script>
+      <script type = "text/javascript" src = "https://d3js.org/d3.v5.min.js"></script>
    </head>
 
    <body>
@@ -10,12 +10,12 @@
       </script>
 <h1> Hi this is Mohammed Firoz Khan!</h1>
 
-      <div>
+      <div id = "hello">
          Hello World!
       </div>
 
       <script>
-         alert(d3.select("div").text());
+         d3.select("#hello").append("span").text("from D3.js");
       </script>
 
    </body>
